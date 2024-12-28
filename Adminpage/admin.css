@@ -1,0 +1,274 @@
+body {
+    background: url('images/background.jpg');
+    background-size: cover;
+}
+
+.main {
+    margin: 20px;
+    
+}
+
+.main hr {
+    background-color: #041d56;
+    height: 2px;
+}
+.profile-details {
+    display: flex;
+}
+
+.profile-details img {
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px 30px 20px 0px;
+}
+
+.profile-details ul{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 38px;
+}
+
+.profile-details ul li{
+    margin-bottom: 30px;
+}
+
+.inquries h2{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.inquries {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .inquries table {
+    margin-left: 100px;
+    margin-bottom: 80px;
+  }
+  
+  .inquries th,
+  .inquries td {
+    width: 400px;
+    height : auto;
+    border: 1px solid #000;
+    padding: 8px;
+    
+  }
+  
+  .inquries th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  
+  
+  .inquries tr:hover {
+    background-color: #999898;
+  }
+  
+  .inquries th,
+  .inquries td {
+    text-align: left;
+  }
+  
+  .inquries th {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .inquries td {
+    font-size: 20px;
+  }
+
+
+
+.add-admin {
+    margin-top: 70px;
+margin-left: 270px;
+margin-bottom: 70px;
+height: 100vh;
+background: url('images/addadmin.jpg') no-repeat;
+background-size: 100%;
+display: grid;
+place-content: center;
+font-family: 'Poppins',sans-serif;
+position: relative;
+width: 850px;
+height: 500px;
+background-color: #fff;
+box-shadow: 25px 30px 55px #5557;
+border-radius: 13px;
+overflow:hidden;
+}
+
+form {
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 0px 50px;
+
+}
+
+
+span{
+font-size: 12px;
+
+}
+.infield {
+position: relative;
+margin: 8px 0px;
+width: 100%;
+
+}
+
+input {
+width: 100%;
+padding: 12px 15px ;
+background-color: #f3f3f3;
+border: none;
+outline:none;
+
+}
+
+#submit {
+margin-top: 10px;
+border-radius: 20px ;
+background: #6fa8dc;
+color: #fff;
+font-size:12px ;
+font-weight: bold;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform:uppercase;
+}
+
+
+.signout {
+    border: 2px solid #01082d;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 40px;
+    padding: 0px 10px;
+    display: flex;
+    height: 150px;
+}
+
+.signout .signout-btn{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 10px 15px ;
+    color: #fff;
+    background-color: #0f2573;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.signout .signout-btn:hover {
+    background-color: #01082d;
+    cursor: pointer;
+}
+
+  /*
+.edit-details {
+    background: url('../images/background14.jpeg');
+    background-size: cover;
+    margin: 20px 250px 20px 300px;
+    border:  3px solid #041d56;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    padding: 0px 40px;
+}
+
+.edit-details form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.edit-details input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px 15px ;
+    background-color: #f3f3f3;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+}
+span{
+    font-size: 12px;
+
+}
+
+.edit-details button {
+    border-radius: 20px ;
+    border: 1px solid #041d56;
+    background: #0f2573;
+    color: #fff;
+    font-size:12px ;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 22px;
+}
+
+.edit-details button:hover{
+    cursor: pointer;
+    background: #041d56;
+}
+
+.del-btn {
+    background: #670010;
+    color: #fff;
+    font-size:12px ;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    margin-bottom: 30px;
+    margin-left: 22px;
+    border-radius: 20px ;
+    border: 1px solid #fff;
+}
+
+.del-btn:hover{
+    background: #3c0000;
+    cursor: pointer;
+}
+
+.del form{
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+}
+
+
+.payment-btn{
+    margin-top: 150px;
+    margin-left: 50px;
+    text-decoration: none;
+    padding: 10px 15px ;
+    color: #fff;
+    background-color: #0f2573;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.payment-btn:hover {
+    background-color: #01082d;
+    cursor: pointer;
+}*/

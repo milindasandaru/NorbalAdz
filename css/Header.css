@@ -1,0 +1,113 @@
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(0, 31, 63, 0.1); 
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.navBar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.navBar a {
+  font-size: 18px;
+  color: #001F3F; 
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 30px;
+  transition: 0.5s;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.navBar a:hover {
+  color: #8A2BE2; 
+}
+
+
+.logo-link {
+  margin: 0;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: fit-content;
+}
+
+
+.spacer {
+  height: 25px;
+}
+
+
+.auth-container {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  font-size: 20px; 
+}
+
+.auth-container button {
+  padding: 8px 16px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sign-up-btn {
+  background-color: #001F3F; 
+  color: #fff;
+  margin-right: 10px;
+}
+
+.sign-up-btn:hover {
+  background-color: #008bcb;
+}
+
+.sign-in-btn {
+  background-color: #fff;
+  color: #001F3F; 
+  border: 1px solid #001F3F; 
+}
+
+.sign-in-btn:hover {
+  background-color: #0080ff;
+  color: #fff;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

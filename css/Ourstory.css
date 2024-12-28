@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    color: #ededed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.sublist {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sublist .subtitle{
+    flex: 1;
+    text-align: center;
+    margin: 18px;
+}
+
+.sublist h2 {
+    color: #001F3F;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.sublist h3 {
+    color: #4169E1;
+    font-size: 27px;
+    font-weight: 420;
+}
+
+.sub-paragraph {
+    color: #001F3F;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    padding-bottom: 70px;
+}
+
+.sublist h3 span {
+    color: #001F3F;
+}
+
+.container {
+    padding: 90px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    margin: 60px;
+    margin-top: 50px;
+}
+
+.about div {
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 3vb #4169E1,
+        1px 1px 10px cyan,
+        1px 1px 15px #ffff
+}
+
+.about div i {
+    color: #4169E1;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 21px;
+}
+
+.about div h3 {
+    color: #001F3F;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about div p {
+    text-decoration: none;
+    color: #001F3F;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.about div:hover {
+    transform: translateY(-10px);
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 42px 21px 0 21px;
+}
+
+.showcase .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.showcase .heading h3 {
+    font-size: 30px;
+    color: #4169E1;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #001F3F;
+}
+
+.showcase .heading h3 span {
+    font-weight: 500;
+    color: #001F3F;
+}
+
+.showcase .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.showcase .box .gallery {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.showcase .box .gallery img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
